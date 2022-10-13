@@ -1,18 +1,14 @@
-
 import Drum from "./components/partials/Drum";
-import DrumMachine from "./components/DrumMachine";
 
 function App() {
- 
-
   return (
     <div className="App">
-
-        <DrumMachine />
+      <div className="grid items-center justify-center">
         <Drum />
         <Drum />
         <Drum />
         <Drum />
+      </div>
     </div>
   );
 }
