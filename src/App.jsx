@@ -1,13 +1,10 @@
-import Drum from "./components/partials/Drum";
+import DrumKit from "./components/DrumKit";
 
 function App() {
   return (
     <div className="App">
-      <div className="grid items-center justify-center">
-        <Drum />
-        <Drum />
-        <Drum />
-        <Drum />
+      <div className="grid bg-teal-400 justify-center">
+        <DrumKit />
       </div>
     </div>
   );
